@@ -1,2 +1,3 @@
-# discord-reply-bot
-This bot automatically replies to a specified user with a specified image or message.
+# KEEP THIS PRIVATE
+
+This repo contains sensitive keys for the Dylan Discord bot. Do not disclose source code without redaction.
