@@ -49,7 +49,7 @@ client.on('messageCreate', message => {
         message.reply('https://cdn.discordapp.com/attachments/607022384985145345/939325385991159939/unknown.png');
     }
 
-    if (messageOwner.id == '350054304536854529' && messageContent == 'test') {
+    else if (messageOwner.id == '350054304536854529' && messageContent == 'test') {
         message.reply('Test successful!');
     }
 });
