@@ -46,7 +46,7 @@ client.on('messageCreate', message => {
 	// 350054304536854529 is __danger
 	// 357709372778086402 is TheBobberBob
 	if (messageOwner.id == '357709372778086402') {
-		message.channel.send('https://imgur.com/TYbUnz9');
+		message.reply('https://imgur.com/TYbUnz9');
 	}
 
 	else if (messageOwner.id == '350054304536854529' && messageContent == 'test') {
@@ -54,7 +54,7 @@ client.on('messageCreate', message => {
 	}
 
 	else if (messageContent == 'dylan') {
-		message.channel.send('https://imgur.com/TYbUnz9');
+		message.reply('https://imgur.com/TYbUnz9');
 	}
 });
 
