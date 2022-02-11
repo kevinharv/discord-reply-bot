@@ -36,22 +36,26 @@ client.on('interactionCreate', async interaction => {
 });
 
 client.on('messageCreate', message => {
-    
-    const messageOwner = message.author;
-    const messageContent = message.content;
 
-    // DEBUG
-    // console.log(`${messageOwner.username} said: ${messageContent}`);
+	const messageOwner = message.author;
+	const messageContent = message.content;
 
-    // 350054304536854529 is __danger
-    // 357709372778086402 is TheBobberBob
-    if (messageOwner.id == '357709372778086402') {
-        message.reply('https://cdn.discordapp.com/attachments/607022384985145345/939325385991159939/unknown.png');
-    }
+	// DEBUG
+	// console.log(`${messageOwner.username} said: ${messageContent}`);
 
-    else if (messageOwner.id == '350054304536854529' && messageContent == 'test') {
-        message.reply('Test successful!');
-    }
+	// 350054304536854529 is __danger
+	// 357709372778086402 is TheBobberBob
+	if (messageOwner.id == '357709372778086402') {
+		message.channel.send('https://imgur.com/TYbUnz9');
+	}
+
+	else if (messageOwner.id == '350054304536854529' && messageContent == 'test') {
+		message.reply('Test successful!');
+	}
+
+	else if (messageContent == 'dylan') {
+		message.channel.send('https://imgur.com/TYbUnz9');
+	}
 });
 
 // Login to Discord with your client's token
