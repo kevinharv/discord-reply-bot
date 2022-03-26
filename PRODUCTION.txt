@@ -1,0 +1,1 @@
+GIT_SSH_COMMAND=ssh -i /home/kevin/.ssh/AWS-DiscordBot.pem git push production master
